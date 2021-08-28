@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+/* Styling Mulai Dari 2100px, Cari masing2x ukuran layar di responsive.css */
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Crimson Pro', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    padding: 16px;
+    margin: 5px 90px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav .nav-left h3 {
+    color: rgb(90, 90, 90);
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+
+nav .nav-left span {
+    color: #6C63FF;
+    font-weight: bolder;
+    font-size: 50px;
+    box-sizing: border-box;
+}
+
+nav .nav-center {
+    width: 25%;
+    margin-left: 6%;
+}
+
+nav .nav-center ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav .nav-center ul img {
+    display: none;
+}
+
+nav .nav-center ul a {
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 38px;
+    color: rgb(90, 90, 90);
+    transition: 0.5s;
+}
+
+nav .nav-center ul a:hover,
+nav .nav-center ul a:active {
+    color: #6C63ff;
+}
+
+nav .nav-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .nav-right img {
+    width: 46px;
+    margin: 0px 0px 0px 15px;
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+}
+
+.burger .line {
+    width: 23px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(129, 129, 129);
+}
+
+/* Bagian Main Web */
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 0px;
+}
+
+.title-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 40%; */
+    margin-left: -5%;
+}
+
+.title-main h1,
+.title-main p {
+    margin: 0px 0px;
+}
+
+.title-main h1 {
+    font-size: 75px;
+}
+
+.title-main p {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(90, 90, 90);
+}
+
+.title-main h1 span {
+    color: #6C63ff;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 75px;
+}
+
+.title-main a {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #6C63ff;
+    display: inline-block;
+    width: 190px;
+    padding: 20px;
+    color: rgb(216, 212, 212);
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.emma img {
+    width: 125%;
+}
+
+
+/* Article Pertama */
+.article {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px 0px 0px 0px;
+}
+
+.container h1:nth-child(1) {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 45px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu:nth-child(3), .menu:nth-child(5) {
+    flex-direction: row-reverse;
+    margin: 10% auto 10% auto;
+    border-radius: 50px;
+    width: 80%;
+    background-color: #b8b4f8;
+}
+
+.menu:nth-child(4) {
+    justify-content: center;
+    margin: 10% auto 10% auto;
+}
+
+.menu-left {
+    width: 40%;
+}
+
+.menu-left-2 {
+    width: 45%;
+}
+
+.menu-left-3 {
+    width: 43%;
+}
+
+.menu-left-4 {
+    width: 35%;
+}
+
+.menu-left img {
+    width: 90%;
+}
+
+.menu-left-2 img {
+    width: 110%;
+    padding: 3%;
+}
+
+.menu-left-3 img {
+    width: 90%;
+}
+
+.menu-left-4 img{
+    width: 105%;
+    padding: 7%;
+}
+
+.menu-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+
+.menu-right-2, .menu-right-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.menu-right-4 {
+    width: 42%;
+    margin-left: 1%;
+}
+
+.menu-right-4 .menu-media {
+    list-style: none;
+    display: flex;
+}
+
+.menu-media img {
+    width: 55px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.menu-right-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    padding-left: 0%;
+}
+
+.menu-right p:nth-child(1) {
+    font-size: 40px;
+    color: #6C63ff;
+    font-weight: bold;
+}
+
+.menu-right-3 p:nth-child(1) {
+    font-size: 40px;
+    color: #6C63ff;
+    font-weight: bold;
+}
+
+.menu-right h1 {
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+.menu-right-2 h1 {
+    font-size: 77px;
+    font-weight: bolder;
+}
+
+.menu-right-3 h1 {
+    font-size: 68px;
+    font-weight: bolder;
+}
+
+.menu-right-4 h1 {
+    font-size: 63px;
+    font-weight: bolder;
+    margin-bottom: 0.5%;
+}
+
+.menu-right p:not(:nth-child(1)) {
+    font-size: 35px;
+    color: rgb(90, 90, 90);
+}
+
+.menu-right-3 p:not(:nth-child(1)) {
+    font-size: 33px;
+    color: rgb(90, 90, 90);
+    margin-bottom: 5px;
+}
+
+.menu-right-2 p {
+    font-size: 37px;
+    color: rgb(90, 90, 90);
+}
+
+.text-end {
+    text-align: center;
+    margin: -8% 0px 1% 0px;
+    font-size: 35px;
+}
+
+.text-end span {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 0px 0%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+
+.contact-list h5 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-list-list p {
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: rgb(131, 131, 131);
+}
+
+.contact-list-list p span {
+    color: #6C63ff;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.contact-list-list p a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+
+.social-media {
+    width: auto;
+}
+
+.social-media h5 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(131, 131, 131);
+}
+
+.image-media {
+    width: 5%;
+    margin: 10px 15px 0px 0px;
+    border: #6C63ff 6px solid;
+    border-radius: 40px;
+    padding: 20px;
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.image-media:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s;
+}
